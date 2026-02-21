@@ -137,6 +137,23 @@ function showLetter() {
     document.getElementById("letter").style.display = "block";
 }
 </script>
+<audio id="bgmusic" loop>
+  <source src="love.mp3" type="audio/mpeg">
+</audio>
 
+<button onclick="playMusic()" 
+style="position:fixed; bottom:20px; right:20px; 
+padding:10px 20px; border:none; 
+background:#ff4d6d; color:white; 
+border-radius:20px; cursor:pointer;">
+💖 Click pannaa surprise irukku 💖
+</button>
+
+<script>
+function playMusic() {
+  document.getElementById("bgmusic").play();
+}
+</script>
 </body>
 </html>
+
